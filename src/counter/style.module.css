@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+    width: 600px;
+    height: 300px;
+    border: 2px solid #54e757;
+    border-radius: 4px;
+    background-color: rgba(153, 242, 81, 0.21);
+}

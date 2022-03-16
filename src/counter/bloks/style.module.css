@@ -1,0 +1,25 @@
+.text {
+    height: 130px;
+    width: 200px;
+    margin: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.inputs {
+    font-size: 18px;
+}

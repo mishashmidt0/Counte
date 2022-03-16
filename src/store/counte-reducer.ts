@@ -31,7 +31,7 @@ export const CounteReducer = (state: stateType = defoultState, action: actionTyp
             return {...state, value: state.startValue}
         }
         case 'INST-DATA-VALUE': {
-            return {...state, value: state.startValue, startValue: action.startValue, maxValue: action.maxValue}
+            return {...state, value: action.startValue, startValue: action.startValue, maxValue: action.maxValue,}
         }
         default: {
             return state
