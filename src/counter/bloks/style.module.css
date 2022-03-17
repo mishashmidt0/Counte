@@ -23,3 +23,23 @@
 .inputs {
     font-size: 18px;
 }
+
+.spanButton,
+.error {
+    display: inline-block;
+    width: 60px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    display: inline-block;
+    color: red;
+    border: 2px solid red;
+}
+.maxNumber{
+    color: red;
+}

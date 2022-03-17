@@ -15,7 +15,7 @@ export function Counter(props: CounterPropsType) {
     return (
         <div className={s.container}>
             <SetBlock maxValue={props.maxValue} startValue={props.startValue} instDataValue={props.instDataValue}/>
-            <AddResetBlock value={props.value} addValue={props.addValue} resetValue={props.resetValue}/>
+            <AddResetBlock value={props.value} addValue={props.addValue} resetValue={props.resetValue} startValue={props.startValue} maxValue={props.maxValue}/>
         </div>
     )
 }
