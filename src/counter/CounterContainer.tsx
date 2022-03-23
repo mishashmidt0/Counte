@@ -6,9 +6,9 @@ import {AppStateType} from "../store/redux";
 
 let mapStateToProps = (state: AppStateType): stateType => {
     return {
-        startValue: state.counteReducer.startValue,
-        maxValue: state.counteReducer.maxValue,
-        value: state.counteReducer.value,
+        startValue: state.counter.startValue,
+        maxValue: state.counter.maxValue,
+        value: state.counter.value,
     }
 }
 
